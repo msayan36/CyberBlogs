@@ -1,0 +1,33 @@
+.genreBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 527px;
+  height: 30px;
+  flex-shrink: 0;
+  color: #fff;
+  margin: 0 auto 5rem auto;
+}
+
+.genre-item {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.genre-active {
+  width: 80px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #63a1ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2b2828;
+}
