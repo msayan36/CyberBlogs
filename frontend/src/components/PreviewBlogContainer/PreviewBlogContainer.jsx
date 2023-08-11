@@ -1,4 +1,5 @@
 import "./style.css";
+import EachBlog from "../EachBlog/EachBlog";
 
 const PreviewBlogContainer = () => {
   return (
@@ -24,7 +25,15 @@ const PreviewBlogContainer = () => {
           </div>
         </div>
       </div>
-      <div className="laterBlogs"></div>
+      <div className="laterBlogs">
+        <EachBlog />
+        <EachBlog />
+        <EachBlog />
+        <EachBlog />
+        <EachBlog />
+        <EachBlog />
+      </div>
+      <button className="loadMore">View More</button>
     </div>
   );
 };

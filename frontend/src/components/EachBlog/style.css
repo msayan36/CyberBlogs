@@ -1,0 +1,90 @@
+.eachBlog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.eachCoverImg {
+  width: 350px;
+  height: 220px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: url(../../assets/blog_cover.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.eachBlogInfo {
+  margin-top: 1rem;
+}
+
+.each_tag {
+  color: #63a1ff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+
+.each_head {
+  width: 350px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+
+.each_preview {
+  width: 350px;
+  flex-shrink: 0;
+  color: #c2c2c2;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+
+.each_author {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.eachAuthorPic {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: url(../../assets/profile_pic.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
+
+.eachAuthorName {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.eachAuthorDate {
+  color: #c2c2c2;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
