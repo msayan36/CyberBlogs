@@ -1,4 +1,5 @@
 import "./style.css";
+import { Link } from "react-router-dom";
 import EachBlog from "../EachBlog/EachBlog";
 
 const PreviewBlogContainer = () => {
@@ -8,9 +9,11 @@ const PreviewBlogContainer = () => {
         <div className="featuredCoverImg"></div>
         <div className="featuredBlogInfo">
           <p className="tag">Anime</p>
-          <h2 className="blog-head">
-            CyberPunk EdgeRunner: Best Anime of 2022
-          </h2>
+          <Link to="/blog/BlogTitle">
+            <h2 className="blog-head">
+              CyberPunk EdgeRunner: Best Anime of 2022
+            </h2>
+          </Link>
           <p className="blog-pre-content">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text

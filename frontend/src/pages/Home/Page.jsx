@@ -7,7 +7,7 @@ import "./style.css";
 
 const Page = () => {
   return (
-    <>
+    <div className="home">
       <Navbar />
       <div className="bannerSection">
         <Banner />
@@ -15,7 +15,7 @@ const Page = () => {
       </div>
       <GenreBar />
       <PreviewBlogContainer />
-    </>
+    </div>
   );
 };
 

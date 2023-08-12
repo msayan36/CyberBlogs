@@ -9,7 +9,7 @@
 body {
   background: #2b2828;
   margin: 0 auto;
-  width: 1120px;
+  /* width: 1120px; */
 }
 
 /* width */
@@ -30,4 +30,8 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+a {
+  text-decoration: none;
 }
